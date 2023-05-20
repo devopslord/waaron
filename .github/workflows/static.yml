@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-     - main #here we choose to deploy only when a push is detected on the main branch
+     - new-frontend-feature #here we choose to deploy only when a push is detected on the main branch
     paths:
       - src/frontend/**
      
