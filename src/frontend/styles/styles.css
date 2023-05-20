@@ -32,6 +32,10 @@ html {
   align-items: center;
 }
 
+.info{
+  margin-top: 10px;
+}
+
 .container {
   display: grid;
   width: 70%;
