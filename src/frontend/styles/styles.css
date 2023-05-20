@@ -171,9 +171,9 @@ small {
 
 .summary__headline h3 {
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
   color: orangered;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .certificates__badges__description img {
