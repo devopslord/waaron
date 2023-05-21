@@ -10,6 +10,17 @@
       content="Page displaying a resume, which is part of Cloud Resume Challenge"
     />
     <title>William | DevOps & Cloud Engineer | waaron.org</title>
+    <SCRIPT>
+      function ShowAndHide() {
+          var x = document.getElementById('SectionName');
+          if (x.style.display == 'none') {
+              x.style.display = 'block';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      </SCRIPT>
+      
   </head>
 
   <body>
@@ -81,9 +92,9 @@
           <hr />
           <div class="knowledge__items">
             <div class="knowledge__item">
-              <h4>Senior DevOps Engineer</h4>
-              <p>GlobalLogical Poland</p>
-              <small>02/2022 - Present</small>
+              <h4>Technical Lead/Cloud Infrastructure Engineer-Remote</h4>
+              <p>Toro Software Dev. Company. NYC,NY</p>
+              <small>06/2021 - Present</small>
               <small>Achievements</small>
               <ul>
                 <li>
@@ -108,10 +119,17 @@
                   establishing automatic linting, unit tests and e2e tests as a
                   part of continuous integration workflow
                 </li>
-                <li>
-                  Collected logs and metrics related to the CI/CD workflow to
-                  look for areas of improvement
-                </li>
+                <BUTTON ONCLICK="ShowAndHide()">More ..</BUTTON><BR><BR>
+
+                  <DIV ID="SectionName" STYLE="display:none">
+                    
+                    <li>
+                      Collected logs and metrics related to the CI/CD workflow to
+                      look for areas of improvement
+                    </li>
+                  
+                  </DIV>
+          
               </ul>
             </div>
             <div class="knowledge__item">
