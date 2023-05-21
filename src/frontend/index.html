@@ -19,6 +19,15 @@
               x.style.display = 'none';
           }
       }
+
+      function ShowAndHide2() {
+          var x = document.getElementById('SectionName2');
+          if (x.style.display == 'none') {
+              x.style.display = 'block';
+          } else {
+              x.style.display = 'none';
+          }
+      }
       </SCRIPT>
       
   </head>
@@ -256,9 +265,9 @@
                 <li>
                   Experience with patching both manually and automated using Ansible.
                 </li>
-                <BUTTON ONCLICK="ShowAndHide()">Read more ..</BUTTON><BR><BR>
+                <BUTTON ONCLICK="ShowAndHide2()">Read more ..</BUTTON><BR><BR>
 
-                  <DIV ID="SectionName" STYLE="display:none">
+                  <DIV ID="SectionName2" STYLE="display:none">
                     <li>Provided CI/CD workflows using Jenkins and GitLab CI</li>
                      
                   </DIV>
